@@ -2,10 +2,10 @@ fn evaporator(content: f64, evap_per_day: i32, threshold: i32) -> i32 {
     let mut counter = 1;
     let mut a = (100 - evap_per_day) as f64 / 100.0;
     let c = a;
-    let mut b = threshold as f64 / 100.0;
+    let b = threshold as f64 / 100.0;
     while a > b {
         counter += 1;
-    println!("{} {} {}", a,b,c);
+        println!("{} {} {}", a, b, c);
         a *= c;
     }
     return counter;
