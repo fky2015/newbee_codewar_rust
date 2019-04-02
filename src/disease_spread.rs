@@ -1,19 +1,3 @@
-// mod a_rule_of_divisibility_by_7;
-// mod build_a_pile_of_cubes;
-// mod build_a_square;
-// mod count_the_digit;
-// mod deodorant_evaporator;
-// mod exes_and_ohs;
-// mod find_the_smallest_integer_in_the_array;
-// mod forgot_name_1;
-// mod forgot_name_2;
-// mod give_me_a_diamond;
-// mod how_many_lightsabers_do_you_own;
-// mod parabolic_arc_length;
-// mod string_ends_with;
-// mod two_pair_sum;
-// mod color_choice;
-
 fn epidemic(tm: i32, n: i32, s0: i32, i0: i32, b: f64, a: f64) -> i32 {
     let interval = (tm as f64) / (n as f64);
     let mut s: f64 = s0 as f64;
@@ -31,6 +15,17 @@ fn epidemic(tm: i32, n: i32, s0: i32, i0: i32, b: f64, a: f64) -> i32 {
     }
     println!("{}", maxn);
     return maxn as i32;
+    
+
+    // let dt = tm as f64/n as f64;
+    // (0..n).scan((s0 as f64, i0 as f64, 0.), |(s, i, r), _|{
+    //     let infected = dt * b * *s * *i;
+    //     let rescured = dt * *i * a;
+    //     *s -= infected;
+    //     *i += infected - rescured;
+    //     *r += rescured;
+    //     Some((*i).floor() as i32)
+    // }).max().unwrap()
 }
 
 #[cfg(test)]
