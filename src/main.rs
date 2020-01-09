@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(clippy::many_single_char_names)]
+#![allow(clippy::unused_unit)]
 // mod a_rule_of_divisibility_by_7;
 // mod build_a_pile_of_cubes;
 // mod build_a_square;
@@ -14,6 +17,17 @@
 // mod two_pair_sum;
 // mod color_choice;
 // mod consecutive_strings;
-
+// mod phone_directory;
+// mod floating_point_approximation;
+// mod easy_cyclist_s_training;
+// mod ranking_nba_teams;
+// mod decimal_to_factorial_and_back;
+// mod number_of_trailling_zeros_of_n;
+// mod tortoise_racing;
+// mod up_and_down;
+// mod bystate;
+// mod moduli_number_system;
+// mod easy_diagonal;
+mod prize_draw;
 
 fn main() {}
