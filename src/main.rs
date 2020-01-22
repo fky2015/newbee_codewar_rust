@@ -28,6 +28,15 @@
 // mod bystate;
 // mod moduli_number_system;
 // mod easy_diagonal;
-mod prize_draw;
+// mod prize_draw;
+// mod product_of_consecutive_fib_numbers;
+// mod k_primes;
+// mod strings_mix;
+// mod algebraic_lists;
+// mod is_n_divisible_by_x_and_y;
+// mod range_extraction;
+// mod next_smaller_number_with_the_same_digits;
+// mod recover_a_secret_string_from_random_triplets;
+// mod number_of_integer_partitions;
 
 fn main() {}
